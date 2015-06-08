@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF239C931B1DD8E40045772B /* Button2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF239C921B1DD8E40045772B /* Button2.png */; };
+		AF239C971B1DDBF20045772B /* Fragmentcore.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF239C941B1DDBF10045772B /* Fragmentcore.otf */; };
+		AF239C981B1DDBF20045772B /* NixieOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF239C951B1DDBF20045772B /* NixieOne.ttf */; };
+		AF239C991B1DDBF20045772B /* typewcond_regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF239C961B1DDBF20045772B /* typewcond_regular.otf */; };
+		AF26F0191B13427400046E21 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF26F0181B13427400046E21 /* cute_image.jpg */; };
+		AF26F01B1B13427400046E21 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = AF26F01A1B13427400046E21 /* nice_music.ogg */; };
+		AF26F01D1B13427400046E21 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF26F01C1B13427400046E21 /* sansation.ttf */; };
+		AF26F01F1B13427400046E21 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF26F01E1B13427400046E21 /* icon.png */; };
+		AF26F0341B1342A100046E21 /* Cipher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0251B1342A100046E21 /* Cipher.cpp */; };
+		AF26F0351B1342A100046E21 /* Encryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0271B1342A100046E21 /* Encryptor.cpp */; };
+		AF26F0361B1342A100046E21 /* HillCipher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0291B1342A100046E21 /* HillCipher.cpp */; };
+		AF26F0371B1342A100046E21 /* PlayfairCipher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F02B1B1342A100046E21 /* PlayfairCipher.cpp */; };
+		AF26F0381B1342A100046E21 /* Text Encryptor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF26F02D1B1342A100046E21 /* Text Encryptor-Info.plist */; };
+		AF26F0391B1342A100046E21 /* TextEncryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F02E1B1342A100046E21 /* TextEncryptor.cpp */; };
+		AF26F03A1B1342A100046E21 /* ThreeByOneMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0301B1342A100046E21 /* ThreeByOneMatrix.cpp */; };
+		AF26F03B1B1342A100046E21 /* ThreeByThreeMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0321B1342A100046E21 /* ThreeByThreeMatrix.cpp */; };
+		AF33937A1B1C7C74005A1B66 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3393791B1C7C74005A1B66 /* Button.png */; };
+		AF33937C1B1C7D28005A1B66 /* FolderSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = AF33937B1B1C7D28005A1B66 /* FolderSelector.png */; };
+		AFB6F7391B13433A0058239B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB6F7381B13433A0058239B /* main.cpp */; };
+		AFB6F73B1B13435F0058239B /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFB6F73A1B13435F0058239B /* ResourcePath.mm */; };
+		AFB6F73F1B134C3C0058239B /* ColumnarTransposition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB6F73D1B134C3C0058239B /* ColumnarTransposition.cpp */; };
+		AFB7BBCA1B1BDDB4008D38E0 /* Decryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB7BBC81B1BDDB4008D38E0 /* Decryptor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF239C921B1DD8E40045772B /* Button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button2.png; sourceTree = "<group>"; };
+		AF239C941B1DDBF10045772B /* Fragmentcore.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fragmentcore.otf; sourceTree = "<group>"; };
+		AF239C951B1DDBF20045772B /* NixieOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NixieOne.ttf; sourceTree = "<group>"; };
+		AF239C961B1DDBF20045772B /* typewcond_regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = typewcond_regular.otf; sourceTree = "<group>"; };
+		AF26F00D1B13427400046E21 /* Document Encryptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Document Encryptor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF26F0111B13427400046E21 /* Document Encryptor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Document Encryptor-Info.plist"; sourceTree = "<group>"; };
+		AF26F0181B13427400046E21 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		AF26F01A1B13427400046E21 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		AF26F01C1B13427400046E21 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		AF26F01E1B13427400046E21 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AF26F0251B1342A100046E21 /* Cipher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cipher.cpp; sourceTree = "<group>"; };
+		AF26F0261B1342A100046E21 /* Cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cipher.h; sourceTree = "<group>"; };
+		AF26F0271B1342A100046E21 /* Encryptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Encryptor.cpp; sourceTree = "<group>"; };
+		AF26F0281B1342A100046E21 /* Encryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encryptor.h; sourceTree = "<group>"; };
+		AF26F0291B1342A100046E21 /* HillCipher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HillCipher.cpp; sourceTree = "<group>"; };
+		AF26F02A1B1342A100046E21 /* HillCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HillCipher.h; sourceTree = "<group>"; };
+		AF26F02B1B1342A100046E21 /* PlayfairCipher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayfairCipher.cpp; sourceTree = "<group>"; };
+		AF26F02C1B1342A100046E21 /* PlayfairCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayfairCipher.h; sourceTree = "<group>"; };
+		AF26F02D1B1342A100046E21 /* Text Encryptor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Text Encryptor-Info.plist"; sourceTree = "<group>"; };
+		AF26F02E1B1342A100046E21 /* TextEncryptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextEncryptor.cpp; sourceTree = "<group>"; };
+		AF26F02F1B1342A100046E21 /* TextEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEncryptor.h; sourceTree = "<group>"; };
+		AF26F0301B1342A100046E21 /* ThreeByOneMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeByOneMatrix.cpp; sourceTree = "<group>"; };
+		AF26F0311B1342A100046E21 /* ThreeByOneMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeByOneMatrix.h; sourceTree = "<group>"; };
+		AF26F0321B1342A100046E21 /* ThreeByThreeMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeByThreeMatrix.cpp; sourceTree = "<group>"; };
+		AF26F0331B1342A100046E21 /* ThreeByThreeMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeByThreeMatrix.h; sourceTree = "<group>"; };
+		AF3393791B1C7C74005A1B66 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		AF33937B1B1C7D28005A1B66 /* FolderSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FolderSelector.png; sourceTree = "<group>"; };
+		AFB6F7381B13433A0058239B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AFB6F73A1B13435F0058239B /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		AFB6F73C1B1343850058239B /* ResourcePath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		AFB6F73D1B134C3C0058239B /* ColumnarTransposition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColumnarTransposition.cpp; sourceTree = "<group>"; };
+		AFB6F73E1B134C3C0058239B /* ColumnarTransposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnarTransposition.h; sourceTree = "<group>"; };
+		AFB7BBC81B1BDDB4008D38E0 /* Decryptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decryptor.cpp; sourceTree = "<group>"; };
+		AFB7BBC91B1BDDB4008D38E0 /* Decryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decryptor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF26F0091B13427400046E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF26F0031B13427400046E21 = {
+			isa = PBXGroup;
+			children = (
+				AF26F00F1B13427400046E21 /* Document Encryptor */,
+				AF26F00E1B13427400046E21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF26F00E1B13427400046E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF26F00D1B13427400046E21 /* Document Encryptor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF26F00F1B13427400046E21 /* Document Encryptor */ = {
+			isa = PBXGroup;
+			children = (
+				AFB6F7381B13433A0058239B /* main.cpp */,
+				AFB6F73A1B13435F0058239B /* ResourcePath.mm */,
+				AFB6F73C1B1343850058239B /* ResourcePath.hpp */,
+				AF26F0251B1342A100046E21 /* Cipher.cpp */,
+				AF26F0261B1342A100046E21 /* Cipher.h */,
+				AF26F0271B1342A100046E21 /* Encryptor.cpp */,
+				AFB7BBC81B1BDDB4008D38E0 /* Decryptor.cpp */,
+				AFB7BBC91B1BDDB4008D38E0 /* Decryptor.h */,
+				AFB6F73D1B134C3C0058239B /* ColumnarTransposition.cpp */,
+				AFB6F73E1B134C3C0058239B /* ColumnarTransposition.h */,
+				AF26F0281B1342A100046E21 /* Encryptor.h */,
+				AF26F0291B1342A100046E21 /* HillCipher.cpp */,
+				AF26F02A1B1342A100046E21 /* HillCipher.h */,
+				AF26F02B1B1342A100046E21 /* PlayfairCipher.cpp */,
+				AF26F02C1B1342A100046E21 /* PlayfairCipher.h */,
+				AF26F02D1B1342A100046E21 /* Text Encryptor-Info.plist */,
+				AF26F02E1B1342A100046E21 /* TextEncryptor.cpp */,
+				AF26F02F1B1342A100046E21 /* TextEncryptor.h */,
+				AF26F0301B1342A100046E21 /* ThreeByOneMatrix.cpp */,
+				AF26F0311B1342A100046E21 /* ThreeByOneMatrix.h */,
+				AF26F0321B1342A100046E21 /* ThreeByThreeMatrix.cpp */,
+				AF26F0331B1342A100046E21 /* ThreeByThreeMatrix.h */,
+				AF26F0171B13427400046E21 /* Resources */,
+				AF26F0101B13427400046E21 /* Supporting Files */,
+			);
+			path = "Document Encryptor";
+			sourceTree = "<group>";
+		};
+		AF26F0101B13427400046E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF26F0111B13427400046E21 /* Document Encryptor-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF26F0171B13427400046E21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF239C941B1DDBF10045772B /* Fragmentcore.otf */,
+				AF239C951B1DDBF20045772B /* NixieOne.ttf */,
+				AF239C961B1DDBF20045772B /* typewcond_regular.otf */,
+				AF239C921B1DD8E40045772B /* Button2.png */,
+				AF3393791B1C7C74005A1B66 /* Button.png */,
+				AF33937B1B1C7D28005A1B66 /* FolderSelector.png */,
+				AF26F0181B13427400046E21 /* cute_image.jpg */,
+				AF26F01A1B13427400046E21 /* nice_music.ogg */,
+				AF26F01C1B13427400046E21 /* sansation.ttf */,
+				AF26F01E1B13427400046E21 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF26F00C1B13427400046E21 /* Document Encryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF26F0221B13427400046E21 /* Build configuration list for PBXNativeTarget "Document Encryptor" */;
+			buildPhases = (
+				AF26F0081B13427400046E21 /* Sources */,
+				AF26F0091B13427400046E21 /* Frameworks */,
+				AF26F00A1B13427400046E21 /* Resources */,
+				AF26F00B1B13427400046E21 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Document Encryptor";
+			productName = "Document Encryptor";
+			productReference = AF26F00D1B13427400046E21 /* Document Encryptor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF26F0041B13427400046E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Incultus;
+				TargetAttributes = {
+					AF26F00C1B13427400046E21 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AF26F0071B13427400046E21 /* Build configuration list for PBXProject "Document Encryptor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF26F0031B13427400046E21;
+			productRefGroup = AF26F00E1B13427400046E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF26F00C1B13427400046E21 /* Document Encryptor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF26F00A1B13427400046E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26F0381B1342A100046E21 /* Text Encryptor-Info.plist in Resources */,
+				AF26F01F1B13427400046E21 /* icon.png in Resources */,
+				AF239C991B1DDBF20045772B /* typewcond_regular.otf in Resources */,
+				AF33937A1B1C7C74005A1B66 /* Button.png in Resources */,
+				AF239C981B1DDBF20045772B /* NixieOne.ttf in Resources */,
+				AF26F01D1B13427400046E21 /* sansation.ttf in Resources */,
+				AF239C931B1DD8E40045772B /* Button2.png in Resources */,
+				AF33937C1B1C7D28005A1B66 /* FolderSelector.png in Resources */,
+				AF239C971B1DDBF20045772B /* Fragmentcore.otf in Resources */,
+				AF26F01B1B13427400046E21 /* nice_music.ogg in Resources */,
+				AF26F0191B13427400046E21 /* cute_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF26F00B1B13427400046E21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"/Library/Frameworks/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"/usr/local/lib/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"/usr/local/lib/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF26F0081B13427400046E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF26F0351B1342A100046E21 /* Encryptor.cpp in Sources */,
+				AF26F0361B1342A100046E21 /* HillCipher.cpp in Sources */,
+				AF26F0391B1342A100046E21 /* TextEncryptor.cpp in Sources */,
+				AF26F03A1B1342A100046E21 /* ThreeByOneMatrix.cpp in Sources */,
+				AFB6F73F1B134C3C0058239B /* ColumnarTransposition.cpp in Sources */,
+				AF26F0371B1342A100046E21 /* PlayfairCipher.cpp in Sources */,
+				AF26F0341B1342A100046E21 /* Cipher.cpp in Sources */,
+				AFB6F73B1B13435F0058239B /* ResourcePath.mm in Sources */,
+				AFB6F7391B13433A0058239B /* main.cpp in Sources */,
+				AF26F03B1B1342A100046E21 /* ThreeByThreeMatrix.cpp in Sources */,
+				AFB7BBCA1B1BDDB4008D38E0 /* Decryptor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF26F0201B13427400046E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		AF26F0211B13427400046E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		AF26F0231B13427400046E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Document Encryptor/Document Encryptor-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF26F0241B13427400046E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Document Encryptor/Document Encryptor-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF26F0071B13427400046E21 /* Build configuration list for PBXProject "Document Encryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF26F0201B13427400046E21 /* Debug */,
+				AF26F0211B13427400046E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF26F0221B13427400046E21 /* Build configuration list for PBXNativeTarget "Document Encryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF26F0231B13427400046E21 /* Debug */,
+				AF26F0241B13427400046E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF26F0041B13427400046E21 /* Project object */;
+}
