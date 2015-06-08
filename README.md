@@ -15,6 +15,7 @@ Regardless, anyone versed in C++ would be able to easily examine the code.
 
 To launch the application, a mac with the latest OS is required. The application itself can be launched immediately once 
 downloaded. It requires a mouse/trackpad and a keyboard to operate. The user should be able to easily navigate through the UI
-to interact with the application.
+to interact with the application. Note that the full file path of the document should be entered. For example:
+/Users/akshaysubramaniam/Documents/Example.txt
 
 Created by Akshay Subramaniam.
