@@ -11,10 +11,7 @@
 		AF239C971B1DDBF20045772B /* Fragmentcore.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF239C941B1DDBF10045772B /* Fragmentcore.otf */; };
 		AF239C981B1DDBF20045772B /* NixieOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF239C951B1DDBF20045772B /* NixieOne.ttf */; };
 		AF239C991B1DDBF20045772B /* typewcond_regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF239C961B1DDBF20045772B /* typewcond_regular.otf */; };
-		AF26F0191B13427400046E21 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF26F0181B13427400046E21 /* cute_image.jpg */; };
-		AF26F01B1B13427400046E21 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = AF26F01A1B13427400046E21 /* nice_music.ogg */; };
 		AF26F01D1B13427400046E21 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF26F01C1B13427400046E21 /* sansation.ttf */; };
-		AF26F01F1B13427400046E21 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF26F01E1B13427400046E21 /* icon.png */; };
 		AF26F0341B1342A100046E21 /* Cipher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0251B1342A100046E21 /* Cipher.cpp */; };
 		AF26F0351B1342A100046E21 /* Encryptor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0271B1342A100046E21 /* Encryptor.cpp */; };
 		AF26F0361B1342A100046E21 /* HillCipher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0291B1342A100046E21 /* HillCipher.cpp */; };
@@ -25,6 +22,10 @@
 		AF26F03B1B1342A100046E21 /* ThreeByThreeMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF26F0321B1342A100046E21 /* ThreeByThreeMatrix.cpp */; };
 		AF33937A1B1C7C74005A1B66 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3393791B1C7C74005A1B66 /* Button.png */; };
 		AF33937C1B1C7D28005A1B66 /* FolderSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = AF33937B1B1C7D28005A1B66 /* FolderSelector.png */; };
+		AF7420DE1B271917000CE75A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7420DD1B271917000CE75A /* Images.xcassets */; };
+		AF7420E01B271954000CE75A /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7420DF1B271954000CE75A /* Images-2.xcassets */; };
+		AF7420E21B271971000CE75A /* EncryptionIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF7420E11B271971000CE75A /* EncryptionIcon.png */; };
+		AF7420E41B271A70000CE75A /* Images-3.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7420E31B271A70000CE75A /* Images-3.xcassets */; };
 		AFB6F7391B13433A0058239B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB6F7381B13433A0058239B /* main.cpp */; };
 		AFB6F73B1B13435F0058239B /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFB6F73A1B13435F0058239B /* ResourcePath.mm */; };
 		AFB6F73F1B134C3C0058239B /* ColumnarTransposition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB6F73D1B134C3C0058239B /* ColumnarTransposition.cpp */; };
@@ -38,10 +39,7 @@
 		AF239C961B1DDBF20045772B /* typewcond_regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = typewcond_regular.otf; sourceTree = "<group>"; };
 		AF26F00D1B13427400046E21 /* Document Encryptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Document Encryptor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF26F0111B13427400046E21 /* Document Encryptor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Document Encryptor-Info.plist"; sourceTree = "<group>"; };
-		AF26F0181B13427400046E21 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		AF26F01A1B13427400046E21 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		AF26F01C1B13427400046E21 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		AF26F01E1B13427400046E21 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		AF26F0251B1342A100046E21 /* Cipher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cipher.cpp; sourceTree = "<group>"; };
 		AF26F0261B1342A100046E21 /* Cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cipher.h; sourceTree = "<group>"; };
 		AF26F0271B1342A100046E21 /* Encryptor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Encryptor.cpp; sourceTree = "<group>"; };
@@ -59,6 +57,10 @@
 		AF26F0331B1342A100046E21 /* ThreeByThreeMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeByThreeMatrix.h; sourceTree = "<group>"; };
 		AF3393791B1C7C74005A1B66 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
 		AF33937B1B1C7D28005A1B66 /* FolderSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FolderSelector.png; sourceTree = "<group>"; };
+		AF7420DD1B271917000CE75A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF7420DF1B271954000CE75A /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		AF7420E11B271971000CE75A /* EncryptionIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EncryptionIcon.png; sourceTree = "<group>"; };
+		AF7420E31B271A70000CE75A /* Images-3.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-3.xcassets"; sourceTree = "<group>"; };
 		AFB6F7381B13433A0058239B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AFB6F73A1B13435F0058239B /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		AFB6F73C1B1343850058239B /* ResourcePath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
@@ -121,6 +123,9 @@
 				AF26F0321B1342A100046E21 /* ThreeByThreeMatrix.cpp */,
 				AF26F0331B1342A100046E21 /* ThreeByThreeMatrix.h */,
 				AF26F0171B13427400046E21 /* Resources */,
+				AF7420DD1B271917000CE75A /* Images.xcassets */,
+				AF7420DF1B271954000CE75A /* Images-2.xcassets */,
+				AF7420E31B271A70000CE75A /* Images-3.xcassets */,
 				AF26F0101B13427400046E21 /* Supporting Files */,
 			);
 			path = "Document Encryptor";
@@ -137,16 +142,14 @@
 		AF26F0171B13427400046E21 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AF7420E11B271971000CE75A /* EncryptionIcon.png */,
 				AF239C941B1DDBF10045772B /* Fragmentcore.otf */,
 				AF239C951B1DDBF20045772B /* NixieOne.ttf */,
 				AF239C961B1DDBF20045772B /* typewcond_regular.otf */,
 				AF239C921B1DD8E40045772B /* Button2.png */,
 				AF3393791B1C7C74005A1B66 /* Button.png */,
 				AF33937B1B1C7D28005A1B66 /* FolderSelector.png */,
-				AF26F0181B13427400046E21 /* cute_image.jpg */,
-				AF26F01A1B13427400046E21 /* nice_music.ogg */,
 				AF26F01C1B13427400046E21 /* sansation.ttf */,
-				AF26F01E1B13427400046E21 /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -209,16 +212,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF26F0381B1342A100046E21 /* Text Encryptor-Info.plist in Resources */,
-				AF26F01F1B13427400046E21 /* icon.png in Resources */,
+				AF7420E01B271954000CE75A /* Images-2.xcassets in Resources */,
 				AF239C991B1DDBF20045772B /* typewcond_regular.otf in Resources */,
 				AF33937A1B1C7C74005A1B66 /* Button.png in Resources */,
 				AF239C981B1DDBF20045772B /* NixieOne.ttf in Resources */,
 				AF26F01D1B13427400046E21 /* sansation.ttf in Resources */,
 				AF239C931B1DD8E40045772B /* Button2.png in Resources */,
+				AF7420E41B271A70000CE75A /* Images-3.xcassets in Resources */,
 				AF33937C1B1C7D28005A1B66 /* FolderSelector.png in Resources */,
 				AF239C971B1DDBF20045772B /* Fragmentcore.otf in Resources */,
-				AF26F01B1B13427400046E21 /* nice_music.ogg in Resources */,
-				AF26F0191B13427400046E21 /* cute_image.jpg in Resources */,
+				AF7420E21B271971000CE75A /* EncryptionIcon.png in Resources */,
+				AF7420DE1B271917000CE75A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +363,7 @@
 		AF26F0231B13427400046E21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Document Encryptor/Document Encryptor-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,6 +373,7 @@
 		AF26F0241B13427400046E21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Document Encryptor/Document Encryptor-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

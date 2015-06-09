@@ -53,8 +53,7 @@ int main(int, char const**)
             if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::BackSpace)
                 textEncryptor.backspace();
             
-            // If text was entered, and its unicode code is readable (not enter, delete, etc), launches
-            // typing method.
+            // If text was entered, and its unicode code is readable (not enter, delete, etc), launches typing method.
             if (event.type == sf::Event::TextEntered && event.text.unicode > 10)
                 textEncryptor.handleTyping((char) event.text.unicode);
             

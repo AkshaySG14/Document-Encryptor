@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>ECE8DC98-052D-4367-AD2E-923CD5D8BA98</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Document Encryptor</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>92B312AE475D04A276FD095E2CAAC785882A3B34</key>
 		<string>https://github.com/Inoculates/Document-Encryptor.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Document Encryptor.xcodeproj/project.xcworkspace</string>
+	<string>Document Encryptor.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>92B312AE475D04A276FD095E2CAAC785882A3B34</key>
