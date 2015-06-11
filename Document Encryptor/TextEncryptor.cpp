@@ -501,7 +501,9 @@ void TextEncryptor::createText() {
     decryptFileLocationText.setPosition(155, 312.5);
 }
 
+// Creates the hashmap that tells the program whether a button is highlighted or not. A hashmap was needed so that it could be easily seen which button had what state.
 void TextEncryptor::createHashMap() {
+    // Each button's key and value clearly created and inserted into the button map..
     buttonMap.insert(std::pair<std::string, int> ("encrypt", 0));
     buttonMap.insert(std::pair<std::string, int> ("decrypt", 0));
     buttonMap.insert(std::pair<std::string, int> ("playfair", 0));
@@ -513,15 +515,28 @@ void TextEncryptor::createHashMap() {
     buttonMap.insert(std::pair<std::string, int> ("dFile", 0));
 }
 
+// This is the method that feeds the relevant information into the encryptor class.
 void TextEncryptor::encryptFile() {
-    int type;
+    // The former string is the message itself that needs to be passed (the text in the text file). The latter string is the encrypted version of that text.
     std::string message, cipherText;
+    // The object that reads the text file.
     std::ifstream cipherFileIn;
+    // Adds an exception if the stream fails to read the file (if an error occurs this guarantees the program will not crash on the user).
     cipherFileIn.exceptions(ifstream::failbit);
+    // Ensures that the file reader does NOT skip spaces.
     cipherFileIn >> std::noskipws;
+    // The object that outputs the encrypted text to a new file.
     std::ofstream cipherFileOut;
+    // Same as previous.
     cipherFileOut << std::noskipws;
     
+    // If the user never selected a file type, the program will highlight red and nothing will occur. Otherwise, the program continues as per normal.
+    if (cipherType == -1) {
+        successMessage(false, true);
+        return;
+    }
+    
+    // Tries to open file. Otherwise, the same as above.
     try {
         cipherFileIn.open(encryptFileLocation, std::ifstream::in);
     }
@@ -530,38 +545,45 @@ void TextEncryptor::encryptFile() {
         return;
     }
     
-    if (cipherType == -1) {
-        successMessage(false, true);
-        return;
-    }
-        
+    // This is the primitive object used to store each character of the read file.
     char character;
     try {
+        // While the reader is not at the end of the file, the reader will read each character.
         while (!cipherFileIn.eof()) {
+            // Sets the storage object to the file character.
             cipherFileIn >> character;
+            // Adds this character to the message.
             message += character;
         }
+        // Closes the file.
         cipherFileIn.close();
     }
+    // If for some reason, the program fails during reading, ensures that the application will not exit.
     catch (ifstream::failure e) {
         successMessage(false, true);
         return;
     }
     
+    // The file reader will read the last letter twice. To avoid an extra letter, the program truncates the message to obliviate the last character.
     message = message.substr(0, message.length() - 1);
+    // Gets the encryptor to encrypt the message.
     Encryptor::Encryptor encryptor(cipherType, message);
+    // Gets the encrypted text of the file.
     cipherText = encryptor.giveCipherText();
     
+    // Opens the same file.
     cipherFileOut.open(encryptFileLocation, std::ifstream::out);
+    // Writes the encrypted text to the file. NOTE: This overwrites the original text.
     cipherFileOut << cipherText;
+    // Closes text.
     cipherFileOut.close();
     
-    
+    // Highlights the encryption button to let the user know of his/her success.
     successMessage(true, true);
 }
 
+// Same as the above.
 void TextEncryptor::decryptFile() {
-    int type;
     std::string message, plainText;
     std::ifstream cipherFileIn;
     cipherFileIn.exceptions(ifstream::failbit);
@@ -600,23 +622,30 @@ void TextEncryptor::decryptFile() {
     
     successMessage(true, false);}
 
+// This is what highlights the encryption button as red or green.
 void TextEncryptor::successMessage(bool success, bool encrypt) {
+    // If the program did not encounter an exception.
     if (success) {
+        // If encrypting.
         if (encrypt) {
+            // Highlights encryption button green.
         encryptButton.setColor(sf::Color(0, 255, 0));
         encryptText.setColor(sf::Color(0, 255, 0));
         }
         else {
+            // Highlights decryption button red.
         decryptButton.setColor(sf::Color(0, 255, 0));
         decryptText.setColor(sf::Color(0, 255, 0));
         }
     }
     else {
         if (encrypt) {
+            // Highlights encryption button green.
             encryptButton.setColor(sf::Color(255, 0, 0));
             encryptText.setColor(sf::Color(255, 0, 0));
         }
         else {
+            // Highlights decryption button red.
             decryptButton.setColor(sf::Color(255, 0, 0));
             decryptText.setColor(sf::Color(255, 0, 0));
         }
