@@ -20,4 +20,6 @@ to interact with the application. Note that the full file path of the document s
 Note that some symbols will NOT work with the program. These are symbols such as ["], ['], or [~]. Symbols like [.], [,], and all shift+number keys will work. In creating a text file, the user is advised to use a minimal amount of symbols. If a error 
 should crash the program, it will most likely result from the usage of an illegal symbol.
 
-Created by Akshay Subramaniam.
+Credits: Thanks to Jovanny Lemonad, Bernd Montag, sugargliderz, and Volker Busse for the various fonts used in the game.
+
+Created by AKSHAY SUBRAMANIAM
