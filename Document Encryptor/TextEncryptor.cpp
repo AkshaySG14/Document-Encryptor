@@ -567,7 +567,7 @@ void TextEncryptor::encryptFile() {
     // The file reader will read the last letter twice. To avoid an extra letter, the program truncates the message to obliviate the last character.
     message = message.substr(0, message.length() - 1);
     // Gets the encryptor to encrypt the message.
-    Encryptor::Encryptor encryptor(cipherType, message);
+    Encryptor encryptor(cipherType, message);
     // Gets the encrypted text of the file.
     cipherText = encryptor.giveCipherText();
     
@@ -613,7 +613,7 @@ void TextEncryptor::decryptFile() {
     }
     
     message = message.substr(0, message.length() - 1);
-    Decryptor::Decryptor decryptor(message);
+    Decryptor decryptor(message);
     plainText = decryptor.givePlainText();
     
     cipherFileOut.open(decryptFileLocation, std::ifstream::out);

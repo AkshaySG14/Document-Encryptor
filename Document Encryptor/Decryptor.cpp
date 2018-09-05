@@ -77,21 +77,21 @@ void Decryptor::decrypt(std::string message) {
 
 // Decrypts the playfair cipher by launching its respective class.
 void Decryptor::playfairCipher(std::string message) {
-    PlayfairCipher::PlayfairCipher decryptCipher(message, false);
+    PlayfairCipher decryptCipher(message, false);
     plainText = decryptCipher.givePlainText();
 }
 
 // Decrypts the hill cipher by launching its respective class.
 void Decryptor::hillCipher(std::string message) {
-    HillCipher::HillCipher decryptCipher(message, false);
+    HillCipher decryptCipher(message, false);
     plainText = decryptCipher.givePlainText();
 }
 
 // Decrypts the columnar transposition cipher by launching its respective class. Note that it is decrypted twice.
 void Decryptor::rowTransposition(std::string message) {
-    ColumnarTransposition::ColumnarTransposition decryptCipher(message, false, false);
+    ColumnarTransposition decryptCipher(message, false, false);
     plainText = decryptCipher.givePlainText();
-    ColumnarTransposition::ColumnarTransposition decryptCipher2(plainText, false, true);
+    ColumnarTransposition decryptCipher2(plainText, false, true);
     plainText = decryptCipher2.givePlainText();
 }
 
